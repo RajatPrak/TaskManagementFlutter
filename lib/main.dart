@@ -18,6 +18,7 @@ class MyApp extends ConsumerWidget {
     final authState = ref.watch(authControllerProvider);
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Task Management',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
