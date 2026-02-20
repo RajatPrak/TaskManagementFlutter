@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../services/api_client.dart';
 
-const String apiBaseUrl = 'http://192.168.1.25:3000'; // Android emulator <> backend
+const String apiBaseUrl = 'https://taskmanagementnodejs.onrender.com'; // Android emulator <> backend
 
 final dioProvider = Provider<Dio>((ref) {
   final dio = Dio(BaseOptions(
